@@ -2249,12 +2249,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d9949df72f9202746b54bdaab61f437d, type: 2}
   - {fileID: 11400000, guid: 78c585d3a7ee0064cb5300ecaa321e93, type: 2}
   - {fileID: 11400000, guid: 65da7dfb929e27940bccabd71eea39fe, type: 2}
+  - {fileID: 11400000, guid: ab8dd61a9220aea438402c8b36401893, type: 2}
+  - {fileID: 11400000, guid: 74d9d84875a3d5248a93334f77aa104b, type: 2}
+  - {fileID: 11400000, guid: a0a613c8d18d996468064fdf58f2ec16, type: 2}
   answerButtons:
   - {fileID: 8491627944483039037}
   - {fileID: 1062593778}
   - {fileID: 488447817}
   - {fileID: 1107602105}
-  quizType: 0
+  quizType: 1
   nextQuestion: {fileID: 7376129575498054511}
   timer: {fileID: 157158532}
   gameView: {fileID: 143636284}
