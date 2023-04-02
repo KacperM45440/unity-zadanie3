@@ -6,3 +6,8 @@ Do pamięci cache możnaby załadować na przykład grafiki, dźwięki i animacj
 
 3. Lazy loading - Pobieramy elementy gry tylko wtedy, kiedy są nam one potrzebne, co również odciąża procesy ładowania.
 Jeżeli nasz quiz miałby, przykładowo, 99999 pytań, każdorazowe wejście do gry wymagałoby od nas poczekanie, aż załadują się wszystkie pytania. Zamiast tego możemy przejść na kompromis ładowania pytania dopiero przy przechodzeniu do następnego.
+
+CPU to profiler użycia procesora. Zawiera przegląd wszystkich istotnych obszarów aplikacji, które wykonywane są w czasie, takich jak wywoływanie skryptów i animacji. Reprezentowany jest graficznie poprzez wykres, co ułatwia znalezienie i zobrazowanie miejsc, które wymagają dużo obliczeń.
+Jego wartość milisekundach możemy wykorzystać do obliczenia framerate'u programu (np. 1000/16ms ~~ 60fps).
+
+GPU jest odpowiednikiem tego modułu dla karty graficznej. Zajmuje się głównie badaniem elementów wizualnych i renderowanych (z wyjątkiem UI). Pokazuje również ilość widocznych trójkątów i wierzchołków.
