@@ -1,0 +1,8 @@
+1. Zminimalizowanie zasobów - upraszczając elementy gry, zwiększając wydajność skryptów oraz używając ponownie dostępnych nam assetów odciążamy zapotrzebowanie na obliczenia aplikacji.
+W tym projekcie można na przykład wyłączyć "raycast target" elementom, z którymi nigdy nie będziemy wchodzić w interakcję.
+
+2. Caching - Możemy przenieść często używane elementy w programie do pamięci podręcznej, eliminując potrzebę inicjalizowania ich więcej razy, niż trzeba.
+Do pamięci cache możnaby załadować na przykład grafiki, dźwięki i animacje, ponieważ będą one niezmienne w całym quizie.
+
+3. Lazy loading - Pobieramy elementy gry tylko wtedy, kiedy są nam one potrzebne, co również odciąża procesy ładowania.
+Jeżeli nasz quiz miałby, przykładowo, 99999 pytań, każdorazowe wejście do gry wymagałoby od nas poczekanie, aż załadują się wszystkie pytania. Zamiast tego możemy przejść na kompromis ładowania pytania dopiero przy przechodzeniu do następnego.
